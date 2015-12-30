@@ -69,9 +69,9 @@ for el in unique_results:
             new_el = makeSwap(el, el, el_2)
             if unique_results.__contains__(new_el):
                 print new_el
-# first_unique = unique_results[101]
-# print str(first_unique) + "\n"
-# second_unique = unique_results[62]
-# print str(second_unique) + "\n"
-# new_el = makeSwap(first_unique, first_unique, second_unique)
-# print str(new_el) + "\n"
+first_unique = unique_results[101]
+print str(first_unique) + "\n"
+second_unique = unique_results[101]
+print str(second_unique) + "\n"
+new_el = makeSwap(first_unique, first_unique, second_unique)
+print str(new_el) + "\n"
